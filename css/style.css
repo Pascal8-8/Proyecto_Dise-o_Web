@@ -1,0 +1,86 @@
+body{
+	font-family:"Bauhaus 93 Regular";
+	background-color: #FEF1CE;
+	
+}
+
+
+header{
+	text-align: left;
+	background-color: #735C48;
+	padding: 10px 0px 10px 0px;
+
+	
+}
+
+#hero-carousel{
+	font-size: 18px;
+}
+
+.caption-left{
+	
+	text-align: left;
+	top: 10%;
+}
+
+.caption-right{
+	text-align: right;
+	top: 10%;
+}
+
+.caption-center{
+	text-align: center;
+	top: 40%;
+	
+}
+
+h1{
+	vertical-align: top;
+	font-size: 50px;
+}
+
+h2{
+	
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+h5{
+	color: #FFFFFF;
+}
+
+.h5-tarjeta{
+	font-size: 50px;
+}
+
+.card-title{
+	text-align: center;
+}
+
+.card-text{
+	text-align: center;
+}
+
+#servicios{
+	padding-bottom: 80px;
+	padding-top: 30px;
+}
+
+#inovando{
+	text-align: center;
+	font-size: 30px;
+}
+
+footer{
+	padding: 50px;
+	background-color: #3C4147;
+	text-align: left;
+	color: #FFFFFF;
+	font-size: 12px;
+}
+
+
+#noticias{
+	padding-bottom: 80px;
+	padding-top: 30px;
+}
