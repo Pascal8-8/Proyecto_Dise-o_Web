@@ -1,86 +1,223 @@
+
 body{
-	font-family:"Bauhaus 93 Regular";
-	background-color: #FEF1CE;
+	color: #00000;
+	font-family: "Bauhaus 93";
+
 	
 }
-
 
 header{
+	background-color: rgba(115,92,72,1.00);
 	text-align: left;
-	background-color: #735C48;
-	padding: 10px 0px 10px 0px;
+	padding: 10px 0;
+}
 
+#hero{
+	background-color: rgba(0,0,0,0.60);
+	background-blend-mode: multiply;
+	background-image: url("../img/michael-maasen-ZY7fuakuXJ0-unsplash.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 150px 0;
+	color: #FFFFFF;
 	
 }
 
-#hero-carousel{
-	font-size: 18px;
+#cartas{
+	padding-top: 20px;
+	padding-bottom: 100px;
 }
 
-.caption-left{
-	
-	text-align: left;
-	top: 10%;
-}
-
-.caption-right{
-	text-align: right;
-	top: 10%;
-}
-
-.caption-center{
+#hero p{
 	text-align: center;
-	top: 40%;
-	
+	font-size: 20px;
 }
 
-h1{
-	vertical-align: top;
+#hero h1{
+	text-align: center;
 	font-size: 50px;
-}
-
-h2{
+	font-weight: 800;
+	margin-bottom: 30px;
 	
-	text-align: center;
-	padding-bottom: 20px;
+}
+.mivi{
+	
+	background-color: #FDF3F3;
 }
 
-h5{
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 0;
+    text-align: left;
+}
+
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer img {
+    margin-bottom: 20px;
+	
+}
+
+footer .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .col-12 {
+    margin-bottom: 20px;
+}
+
+footer h4 {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
 	color: #FFFFFF;
 }
 
-.h5-tarjeta{
-	font-size: 50px;
+footer ul {
+    list-style: none;
+    padding: 0;
 }
 
-.card-title{
-	text-align: center;
+footer ul li {
+    margin-bottom: 10px;
 }
 
-.card-text{
-	text-align: center;
+footer ul li a {
+    color: white;
+    text-decoration: none;
 }
 
-#servicios{
-	padding-bottom: 80px;
-	padding-top: 30px;
+footer ul li a:hover {
+    text-decoration: underline;
 }
 
-#inovando{
-	text-align: center;
-	font-size: 30px;
+footer .social-icons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
 }
 
-footer{
-	padding: 50px;
-	background-color: #3C4147;
-	text-align: left;
+footer .social-icons a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+
+footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: left;
+    margin-top: 20px;
+}
+
+footer .col-lg-3,
+footer .col-sm-3,
+footer .col-12 {
+    margin-bottom: 20px;
+}
+
+footer h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
 	color: #FFFFFF;
-	font-size: 12px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+footer .img-left {
+    float: left;
 }
 
 
-#noticias{
-	padding-bottom: 80px;
-	padding-top: 30px;
+footer .social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+footer .social-icons a {
+    color: white;
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    header .navbar-nav {
+        text-align: center;
+    }
+
+    #talentos .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer .row {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer .col-lg-3,
+    footer .col-sm-3,
+    footer .col-12 {
+        width: 100%;
+        text-align: center;
+    }
+
+    footer .social-icons {
+        justify-content: center;
+    }
+}
+
+footer img {
+    margin-bottom: 20px;
+    float: left; 
+}
+
+footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+
+footer .row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: left;
+    margin-top: 20px;
 }
